@@ -2,7 +2,9 @@
 ## The shortest path to computing happiness after a ground zero event
 This assumes a Windows 10 setup.  First start Windows and delete any obviously nasty things.  Connect to the internet with the provided cruft and login with the Microsoft user ID.  Check Windows Defender is scanning and updating.  Check Onedrive.  Access the Windows Insider Programme Slow track, OS builds only.
 
-Setup linux subsystem Ubuntu.
+Setup linux subsystem Ubuntu.  Except maybe go easy on this step which possibly destroyed the last one.
+
+Install Zotero.
 
 Install Microsoft R Open from MRAN.
 
@@ -19,9 +21,8 @@ Install miktex and verify rstudio is knitting correctly.
 Install firefox 64bit and login.
 Install keepass
 
-Install zotero
-
 Install libreoffice and check zotero and latex integration
+
 Install foxit
 
 Install vlc
