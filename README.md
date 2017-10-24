@@ -6,6 +6,8 @@ Transfer the Documents folder to C:\Users\lewis\ (probably).
 
 Setup linux subsystem Ubuntu.  Except maybe go easy on this step which possibly destroyed the last one.
 
+Install the java jdk.  Stick to 8 for now to avoid LibreOffice conflicts.
+
 Install [Zotero](https://www.zotero.org/), make sure to set the linked attachment base directory (Edit - Preferences - Advanced - Files and Folders to allow documents to open from the citation library.
 
 Install [Microsoft R Open](https://mran.microsoft.com/download/).
@@ -22,10 +24,11 @@ Get the VPNs set up.  For example, the [UoE help pages](https://www.ed.ac.uk/inf
 
 I'm not sure how necessary this step is but it works: [MobaXterm download](https://mobaxterm.mobatek.net/download.html) then [WinSCP](https://winscp.net/eng/download.php) to allow the VPN bash access and file system GUI explorer that mostly works so far.  Log into the VPN then form a tunnel but be careful with the relative pathways after that, for the WinSCP access.  Should work with any VPN at all.  On the other hand built-ins should work, particularly Git bash and maybe the git clients.  Must try that some time for leanness.
 
-Install [firefox 64bit]() and login.
-Install keepass
+Install [firefox 64bit](https://www.mozilla.org/en-US/firefox/) and login, add the [Zotero connector](https://www.zotero.org/download/connectors).
 
-Install libreoffice and check zotero and latex integration
+Install [keepass 2.37](https://keepass.info/).
+
+Install [libreoffice 5.3 for now](https://www.libreoffice.org/download/download/), again because of conflicts. Check zotero and [latex](https://extensions.libreoffice.org/extensions/texmaths-1) integration.
 
 Install [foxit](https://www.foxitsoftware.com/pdf-reader/), just the reader, not Phantom.
 
