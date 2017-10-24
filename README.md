@@ -18,6 +18,8 @@ Install Anaconda for python 3 and verify notebooks.
 
 Install miktex and verify rstudio is knitting correctly.
 
+Get the VPNs set up.  For example, the [UoE help pages](https://www.ed.ac.uk/information-services/computing/desktop-personal/vpn) or for the [Cisco AnyConnect VPN client](https://www.ed.ac.uk/information-services/computing/desktop-personal/vpn/vpn-cisco-client/cisco-anyconnect-ssl-client-windows)
+
 Install firefox 64bit and login.
 Install keepass
 
