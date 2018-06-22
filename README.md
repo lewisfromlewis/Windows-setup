@@ -12,7 +12,7 @@ Install [Zotero](https://www.zotero.org/), make sure to set the linked attachmen
 
 Install [Microsoft R Open](https://mran.microsoft.com/download/).
 
-Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).
+Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).  Check at the end of the page for the list of packages you need if you're offline, and which you would forget otherwise.
 
 [Install](https://git-for-windows.github.io/) and [configure](happygitwithr) git.  Test and confirm.
 
@@ -28,7 +28,7 @@ Install [firefox 64bit](https://www.mozilla.org/en-US/firefox/) and login, add t
 
 Install [keepass 2.37](https://keepass.info/).
 
-Install [libreoffice 5.3 for now](https://www.libreoffice.org/download/download/), again because of conflicts. Check zotero and [latex](https://extensions.libreoffice.org/extensions/texmaths-1) integration.
+Install [libreoffice 6](https://www.libreoffice.org/download/download/), 6.0.2.1 works with TeXmaths which is everything to me. Check zotero and [latex](https://extensions.libreoffice.org/extensions/texmaths-1) integration.
 
 Install [foxit](https://www.foxitsoftware.com/pdf-reader/), just the reader, not Phantom.
 
@@ -38,6 +38,10 @@ Install gimp from Partha and check latest RAW import shenanigans
 
 Install notepad++
 
-Install teamviewer
+Install [teamviewer](https://www.teamviewer.com/en/download/windows/), it's surprisingly small, best for meetings5 and I don't have any proof it's watching me at my ablutions.
 
 Install the very annoying Anaconda for python 3 and verify notebooks.
+
+Put [calibre](https://calibre-ebook.com/download_windows64) on it, it's been useful for notes and otherwise unreadable stuff.  On the same track, use [Denemo](http://www.denemo.org/downloads-page/) for the music.  And try, for any favour, to write something,  it's been too long.
+
+To do: figure out how to setup a VPN to your shambolic backups and how to run R in an RStudio serve instance so you can scale it all the way up when you need to.  And how to get a SQL server running.
