@@ -44,4 +44,9 @@ Install the very annoying Anaconda for python 3 and verify notebooks.
 
 Put [calibre](https://calibre-ebook.com/download_windows64) on it, it's been useful for notes and otherwise unreadable stuff.  On the same track, use [Denemo](http://www.denemo.org/downloads-page/) for the music.  And try, for any favour, to write something,  it's been too long.
 
-To do: figure out how to setup a VPN to your shambolic backups and how to run R in an RStudio serve instance so you can scale it all the way up when you need to.  And how to get a SQL server running.
+To do: figure out how to setup a VPN to your shambolic backups and how to run R in an RStudio server instance so you can scale it all the way up when you need to.  And how to get a SQL server running.
+
+## Those packages
+`tidyverse`
+`devtools`
+use [MRAN](https://mran.microsoft.com/) for the R source because the it can take full advantage of the computer and RStudio can take full advantage of R.
