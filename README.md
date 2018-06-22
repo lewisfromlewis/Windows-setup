@@ -10,7 +10,7 @@ Install the java jdk.  Stick to 8 for now to avoid LibreOffice conflicts.
 
 Install [Zotero](https://www.zotero.org/), make sure to set the linked attachment base directory (Edit - Preferences - Advanced - Files and Folders to allow documents to open from the citation library.
 
-Install [Microsoft R Open](https://mran.microsoft.com/download/).
+Install [Microsoft R Open](https://mran.microsoft.com/download/). Check that the `.libPaths()` refers to the location with all the goodies and if not, trawl through help(.libPaths) until about 1am until you find the bit saying "add or edit the R_LIBS_USER environment variable with the value of the desired library location". Update packages.  Yes all.
 
 Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).  Check at the end of the page for the list of packages you need if you're offline, and which you would forget otherwise.
 
