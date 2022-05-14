@@ -4,7 +4,7 @@ This assumes a Windows 10 setup.  First start Windows and delete any obviously n
 
 Transfer the Documents folder to C:\Users\lewis\ (probably).
 
-Setup linux subsystem using Powershell `wsl --install` as [described](https://docs.microsoft.com/en-us/windows/wsl/install). Install the aws sam cli for [linux](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html), for compatibility with the development environment.
+Setup linux subsystem using Powershell `wsl --install` as [described](https://docs.microsoft.com/en-us/windows/wsl/install). Install the aws cli, and then the aws sam cli including Docker, for [linux](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html), for compatibility with the development environment.
 
 Install the java jdk.  Stick to 8 for now to avoid LibreOffice conflicts.
 
@@ -12,7 +12,7 @@ Install [Zotero](https://www.zotero.org/), make sure to set the linked attachmen
 
 Install [Microsoft R Open](https://mran.microsoft.com/download/). Check that the `.libPaths()` refers to the location with all the goodies and if not, trawl through help(.libPaths) until about 1am until you find the bit saying "add or edit the R_LIBS_USER environment variable with the value of the desired library location". Update packages.  Yes all.
 
-Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).  Check at the end of the page for the list of packages you need if you're offline, and which you would forget otherwise.
+Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).  The dependencies get annoying very quickly especially as I'm not working across a whole organisation. Try updating RProfile.site in the R distribution with `options(repos = c(CRAN = "https://cran.revolutionanalytics.com"))` just below the section on checking for a timepoint repo. Check at the end of the page for the list of packages you need if you're offline, and which you would forget otherwise.
 
 [Install](https://git-for-windows.github.io/) and [configure](happygitwithr) git.  Test and confirm.
 
@@ -49,3 +49,36 @@ To do: figure out how to setup a VPN to your shambolic backups and how to run R 
 ## Those packages
 `tidyverse`
 `devtools`
+NMM loadorder.txt:
+GameMode=Fallout4
+Fallout4.esm=1
+DLCRobot.esm=1
+DLCworkshop01.esm=1
+DLCCoast.esm=1
+DLCworkshop02.esm=1
+DLCworkshop03.esm=1
+DLCNukaWorld.esm=1
+ccbgsfo4005-bluecamo.esl=1
+ccbgsfo4024-pacamo03.esl=1
+ccgcafo4005-factionws05hrpink.esl=1
+ccgcafo4011-factionws11vt.esl=1
+ccgcafo4022-factionas11vt.esl=1
+simsettlements.esm=1
+ArmorKeywords.esm=1
+Unofficial Fallout 4 Patch.esp=1
+everyonesbestfriend.esp=1
+conquest.esp=1
+crimetown.esp=1
+trainbar.esp=1
+NoSpinUpPlusCoreFix.esp=1
+3dscopes-framework.esp=1
+3dscopes.esp=1
+3dscopes-AddToSpawnList.esp=1
+Marmo1233 - PowerArmorAirdrop.esp=1
+StartMeUp.esp=1
+Crafting Mastery - Patch Sim Settlements.esp=1
+Armorsmith Extended.esp=1
+Crafting Mastery.esp=1
+EnclaveX02.esp=1
+NanoSuit.esp=1
+NanoSuit_AWKCR_AE.esp=1
