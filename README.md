@@ -4,7 +4,7 @@ This assumes a Windows 10 setup.  First start Windows and delete any obviously n
 
 Transfer the Documents folder to C:\Users\lewis\ (probably).
 
-Setup linux subsystem Ubuntu.  Except maybe go easy on this step which possibly destroyed the last one.
+Setup linux subsystem using Powershell `wsl --install` as [described](https://docs.microsoft.com/en-us/windows/wsl/install). Install the aws sam cli for [linux](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html), for compatibility with the development environment.
 
 Install the java jdk.  Stick to 8 for now to avoid LibreOffice conflicts.
 
@@ -16,31 +16,31 @@ Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).  Check at
 
 [Install](https://git-for-windows.github.io/) and [configure](happygitwithr) git.  Test and confirm.
 
-Install [miktex](https://miktex.org/download) and verify rstudio is knitting correctly.
+Install tinytex from rstudio and verify it's knitting correctly.
 
 Install and check a git client, [GitKraken](https://www.gitkraken.com/) or [Sourcetree](https://www.sourcetreeapp.com/).  Not sure which is better yet.
 
 Get the VPNs set up.  For example, the [UoE help pages](https://www.ed.ac.uk/information-services/computing/desktop-personal/vpn) or for the [Cisco AnyConnect VPN client](https://www.ed.ac.uk/information-services/computing/desktop-personal/vpn/vpn-cisco-client/cisco-anyconnect-ssl-client-windows).
 
-I'm not sure how necessary this step is but it works: [MobaXterm download](https://mobaxterm.mobatek.net/download.html) then [WinSCP](https://winscp.net/eng/download.php) to allow the VPN bash access and file system GUI explorer that mostly works so far.  Log into the VPN then form a tunnel but be careful with the relative pathways after that, for the WinSCP access.  Should work with any VPN at all.  On the other hand built-ins should work, particularly Git bash and maybe the git clients.  Must try that some time for leanness.
+I'm not sure how necessary this step is but it works: [MobaXterm download](https://mobaxterm.mobatek.net/download.html) then [WinSCP](https://winscp.net/eng/download.php) to allow the VPN bash access and file system GUI explorer that mostly works so far.  Log into the VPN then form a tunnel but be careful with the relative pathways after that, for the WinSCP access.  Should work with any VPN at all.  
 
 Install [firefox 64bit](https://www.mozilla.org/en-US/firefox/) and login, add the [Zotero connector](https://www.zotero.org/download/connectors).
 
-Install [keepass 2.37](https://keepass.info/).
+Install [keepass](https://keepass.info/).
 
-Install [libreoffice 6](https://www.libreoffice.org/download/download/), 6.0.2.1 works with TeXmaths which is everything to me. Check zotero and [latex](https://extensions.libreoffice.org/extensions/texmaths-1) integration.
+Install [libreoffice](https://www.libreoffice.org/download/download/), 6.0.2.1 works with TeXmaths which is everything to me. Check zotero and [latex](https://extensions.libreoffice.org/extensions/texmaths-1) integration.
 
 Install [foxit](https://www.foxitsoftware.com/pdf-reader/), just the reader, not Phantom.
 
-Install [vlc](https://get.videolan.org/vlc/2.2.6/win64/vlc-2.2.6-win64.exe) and [Audacity](https://www.fosshub.com/Audacity.html/audacity-win-2.1.3.exe)
+Install [vlc](https://get.videolan.org/vlc/2.2.6/win64/vlc-2.2.6-win64.exe) and maybe [Audacity](https://www.fosshub.com/Audacity.html/audacity-win-2.1.3.exe) and definitely [Waveform](https://www.tracktion.com/products/waveform-free), then think about Equator for the sounds. That still means an ASIO is needed, so [ASIO4ALL](https://www.asio4all.org/).
 
-Install gimp from Partha and check latest RAW import shenanigans
+Install gimp from [Partha](https://www.partha.com/) and check latest RAW import shenanigans
 
-Install notepad++
+Install notepad++ because it's tiny. Also install Atom for now until it's obvious which is nicer.
 
-Install [teamviewer](https://www.teamviewer.com/en/download/windows/), it's surprisingly small, best for meetings5 and I don't have any proof it's watching me at my ablutions.
+Consider [teamviewer](https://www.teamviewer.com/en/download/windows/), it's surprisingly small, best for meetings5 and I don't have any proof it's watching me at my ablutions.
 
-Install the very annoying Anaconda for python 3 and verify notebooks.
+Have a think about the very annoying Anaconda for python 3 and verify notebooks, or whether Reticulate is sufficient.
 
 Put [calibre](https://calibre-ebook.com/download_windows64) on it, it's been useful for notes and otherwise unreadable stuff.  On the same track, use [Denemo](http://www.denemo.org/downloads-page/) for the music.  And try, for any favour, to write something,  it's been too long.
 
@@ -49,4 +49,3 @@ To do: figure out how to setup a VPN to your shambolic backups and how to run R 
 ## Those packages
 `tidyverse`
 `devtools`
-use [MRAN](https://mran.microsoft.com/) for the R source because the it can take full advantage of the computer and RStudio can take full advantage of R.
