@@ -6,7 +6,11 @@ Transfer the Documents folder to C:\Users\lewis\ (probably).
 
 Setup linux subsystem using Powershell `wsl --install` as [described](https://docs.microsoft.com/en-us/windows/wsl/install). Install the aws cli, and then the aws sam cli including Docker, for [linux](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html), for compatibility with the development environment.
 
-Install the java jdk.  Stick to 8 for now to avoid LibreOffice conflicts.
+`pandoc`, `pdfmerge`, `ffmpeg` unless they're installed with other things. Check back at the end.
+
+Easy ones: Takoboto, Pleco, Chinese, Gàidhlig, Japanese inputs, kindle, dropbox, garmin express, metacreator, signal, slack, steam, whatsapp, zoom.
+
+Install the java jdk.  Probably stick to 8 for now to avoid LibreOffice conflicts. More to follow here with the json approach.
 
 Install [Zotero](https://www.zotero.org/), make sure to set the linked attachment base directory (Edit - Preferences - Advanced - Files and Folders to allow documents to open from the citation library.
 
@@ -32,7 +36,7 @@ Install [libreoffice](https://www.libreoffice.org/download/download/), 6.0.2.1 w
 
 Install [foxit](https://www.foxitsoftware.com/pdf-reader/), just the reader, not Phantom.
 
-Install [vlc](https://get.videolan.org/vlc/2.2.6/win64/vlc-2.2.6-win64.exe) and maybe [Audacity](https://www.fosshub.com/Audacity.html/audacity-win-2.1.3.exe) and definitely [Waveform](https://www.tracktion.com/products/waveform-free), then think about Equator for the sounds. That still means an ASIO is needed, so [ASIO4ALL](https://www.asio4all.org/).
+Install [vlc](https://get.videolan.org/vlc/2.2.6/win64/vlc-2.2.6-win64.exe) and maybe [Audacity](https://www.fosshub.com/Audacity.html/audacity-win-2.1.3.exe) and definitely [Waveform](https://www.tracktion.com/products/waveform-free), then think about Equator for the sounds. That still means an ASIO is needed, so [ASIO4ALL](https://www.asio4all.org/). Consider [OpenShot](https://www.openshot.org/).
 
 Install gimp from [Partha](https://www.partha.com/) and check latest RAW import shenanigans
 
