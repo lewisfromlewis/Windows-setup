@@ -2,6 +2,8 @@
 ## The shortest path to computing happiness after a ground zero event
 This assumes a Windows 10 setup.  First start Windows and delete any obviously nasty things.  Connect to the internet with the provided cruft and login with the Microsoft user ID.  Check Windows Defender is scanning and updating.  Check Onedrive.  Access the Windows Insider Programme Slow track, OS builds only.
 
+Make sure the user is not set with a space, like "Lewis Campbell", because that's stupid.
+
 Transfer the Documents folder to C:\Users\lewis\ (probably).
 
 Setup linux subsystem using Powershell `wsl --install` as [described](https://docs.microsoft.com/en-us/windows/wsl/install). Install the aws cli, and then the aws sam cli including Docker, for [linux](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html), for compatibility with the development environment.
