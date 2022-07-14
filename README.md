@@ -1,7 +1,8 @@
 # Windows-setup
 ## The shortest path to computing happiness after a ground zero event
-This assumes a Windows 10 setup.  First start Windows and delete any obviously nasty things.  Connect to the internet with the provided cruft and login with the Microsoft user ID.  Check Windows Defender is scanning and updating.  Check Onedrive.  Access the Windows Insider Programme Slow track, OS builds only.
+This assumes a Windows 10 setup.  First start Windows and delete any obviously nasty things.  Connect to the internet with the provided cruft and login with the Microsoft user ID.  Check Windows Defender is scanning and updating.  Check Onedrive is not doing anything too stupid.  Access the Windows Insider Programme Slow track, OS builds only.
 
+Switch on system restore!
 Make sure the user is not set with a space, like "Lewis Campbell", because that's stupid.
 
 Transfer the Documents folder to C:\Users\lewis\ (probably).
