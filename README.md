@@ -17,7 +17,7 @@ Install the java jdk.  Probably stick to 8 for now to avoid LibreOffice conflict
 
 Install [Zotero](https://www.zotero.org/), make sure to set the linked attachment base directory (Edit - Preferences - Advanced - Files and Folders to allow documents to open from the citation library.
 
-Install [Microsoft R Open](https://mran.microsoft.com/download/). Check that the `.libPaths()` refers to the location with all the goodies and if not, trawl through help(.libPaths) until about 1am until you find the bit saying "add or edit the R_LIBS_USER environment variable with the value of the desired library location". Update packages.  Yes all.
+Install [Microsoft R Open](https://mran.microsoft.com/download/). Check that the `.libPaths()` refers to the location with all the goodies and if not, trawl through help(.libPaths) until about 1am until you find the bit saying "add or edit the R_LIBS_USER environment variable with the value of the desired library location". Install [RTools](https://cran.r-project.org/bin/windows/Rtools/) correct version to allow source builds. Update packages.  Yes all.
 
 Install [Rstudio](https://www.rstudio.com/products/rstudio/download/).  The dependencies get annoying very quickly especially as I'm not working across a whole organisation. Try updating RProfile.site in the R distribution with `options(repos = c(CRAN = "https://cran.revolutionanalytics.com"))` just below the section on checking for a timepoint repo. Check at the end of the page for the list of packages you need if you're offline, and which you would forget otherwise.
 
