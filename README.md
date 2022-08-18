@@ -54,14 +54,17 @@ Put [calibre](https://calibre-ebook.com/download_windows64) on it, it's been use
 To do: figure out how to setup a VPN to your shambolic backups and how to run R in an RStudio server instance so you can scale it all the way up when you need to.  And how to get a SQL server running.
 
 ## SQL server 
-I'm still not totally sure whether I needed to install postgre at all because it's included with Ubuntu... but is it included with wsl Ubuntu? Anyway, to install a specific new version the script is needed:
+I'm still not totally sure whether I needed to install postgre at all because it's included with Ubuntu... but is it included with wsl Ubuntu? This might work if so:
+`apt-get install postgresql-12`
+
+Anyway, to install a specific new version the script is needed:
 
 `sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 sudo apt-get -y install postgresql`
 
-Then
+Then once something is installed, 
 `service postgresql status`
 and maybe need
 `service postgresql restart`
