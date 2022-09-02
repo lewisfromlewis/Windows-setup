@@ -71,6 +71,10 @@ and maybe need
 then
 `sudo -u postgres psql`
 
+## Jupyter labs 
+This is not bad except for dependency hell. `pip install jupyterlab` uses markupsafe 2.1.1 which removes soft_unicode, which is required. 
+`pip install -U flask` on the one hand, or `pip install markupsafe==2.0.1`, fixes it to allow `jupyter lab` to start the server. Which produces instructions to find it with a browser and to stop it.
+
 ## Those packages
 `tidyverse`
 `devtools`
