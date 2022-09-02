@@ -53,6 +53,10 @@ Put [calibre](https://calibre-ebook.com/download_windows64) on it, it's been use
 
 To do: figure out how to setup a VPN to your shambolic backups and how to run R in an RStudio server instance so you can scale it all the way up when you need to.  And how to get a SQL server running.
 
+## Docker
+Install Docker desktop in Windows. Check all the boxes 'use WSL2 based engine' and 'WSL integration', then check with `$ docker --version`. The wsl docker docs love VScode which is easy to install and add a million extensions to, and to start in the current directory I suppose, with `code .`
+Not sure how to get things running without the desktop, but that probably goes away with a server where it's always on.
+
 ## SQL server 
 I'm still not totally sure whether I needed to install postgre at all because it's included with Ubuntu... but is it included with wsl Ubuntu? This might work if so:
 `apt-get install postgresql-12`
